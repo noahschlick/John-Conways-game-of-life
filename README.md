@@ -1,2 +1,4 @@
 # John-Conways-game-of-life
 This is program reads a text file that is a 20X20 grid representation of game of life. The 'O' in the text file represents a dead cell, and the 'X' represent a live cell. The user gets to enter the amount of generations that they would like to process on the grid. The program will write back to the text file, the result of the text file.  
+Each cell is represented as a cell class that extends the ICell inter face. There are different types of cells depending on the cells location. For example a cell in the middle of the grid will have a slightly different algorthim to determine its state then a cell that is come the edge of the grid. The grid its self is represents as a 2d array of the cell objects. The cell types can vary in the 2d array by making the 2d array of the typee ICell interface. 
+The program doe not display the cells chage but it does write back to the file the end state of the grid after x amountt of generations.
